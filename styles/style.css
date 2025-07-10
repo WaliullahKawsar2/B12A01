@@ -81,3 +81,32 @@
 .action-image{
     border-radius: 48px;
 }
+/* Stats section */
+.statistics{
+    margin: 126px 140px;
+    border-radius: 10px;
+    background-color: hsla(242, 100%, 64%, 0.1);
+    text-align: center;
+    padding: 50px 142px;
+}
+.statistics-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.statistics-groups{
+    display: flex;
+    gap: 158px;
+    margin-top: 40px;
+}
+.statistics-group{
+    margin: 0 auto;
+
+}
+.stat-grp-no{
+    font-size: 80px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+.stat-grp-text{
+    font-size: 20px;
+}
