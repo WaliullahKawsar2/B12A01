@@ -25,6 +25,7 @@
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 body{
     background-color: #f5f8ff;
@@ -209,4 +210,30 @@ body{
     border: none;
     border-radius: 10px;
     width: 500px;
+}
+/* Footer */
+footer{
+    background-color: white;
+    padding: 105px;
+    text-align: center;
+}
+.f-logo{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.f-description {
+    max-width: 530px;
+    margin: 20px auto;
+}
+footer ul{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
 }
