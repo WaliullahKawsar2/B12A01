@@ -26,6 +26,9 @@
     border: none;
     border-radius: 10px;
 }
+body{
+    background-color: #f5f8ff;
+}
 /* Home */
 .home{
     background-image: url("../Assets/Hero-bg.png");
@@ -109,4 +112,51 @@
 }
 .stat-grp-text{
     font-size: 20px;
+}
+
+/* review section */
+.review{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.review-card-group{
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    justify-content: center;
+    margin-top: 50px;
+}
+.review-card{
+    padding: 24px;
+    max-width: 300px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    gap: 14px;
+    background-color: white;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-description{
+    font-size: 12px;
+}
+.card-profile{
+    border-radius: 50%;
+}
+.card-details{
+    display: flex;
+    height: 40px;
+    font-size: 12px;
+    gap: 5px;
+    align-items: center;
+}
+.card-date{
+    font-size: 11px;
+    margin-top: 5px;
+    color: rgb(179, 179, 179);
 }
