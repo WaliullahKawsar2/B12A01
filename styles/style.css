@@ -29,7 +29,7 @@
 /* Home */
 .home{
     background-image: url("../Assets/Hero-bg.png");
-    height: 100vh;
+    height: 700px;
 }
 /* navigation */
 .nav{
@@ -59,6 +59,25 @@
     text-align: center;
 }
 
+/* Action section */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 200px;
+    align-items: center;
+}
+.action-text{
+    max-width: 517px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
 
-
-
+.action-description{
+    margin: 23px 0;
+    font-size: 24px;
+}
+.action-image{
+    border-radius: 48px;
+}
